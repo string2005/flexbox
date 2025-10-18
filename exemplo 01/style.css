@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin: 10px;
+}
+header > h1 {
+    background-color:darkseagreen;
+    padding: 5px;
+    text-align: center;
+    margin: 20px 0px 10px 0px;
+}
+header p {
+    margin: 0px 0px 10px 0px;
+}
+div.text h2 {
+    background-color: darkseagreen;
+    padding: 5px;
+    text-align: center;
+    margin: 10px 0px;
+
+}
+div.text p {
+    margin: 5px;
+}
+section.flex-content {
+    background-color: rgb(230, 220, 220);
+    padding: 10px;
+}
+section > article {
+    /*border: 2px solid green; */
+}
+article.text-media {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+article.media-text {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: space-between;
+}
+article > div.text {
+    flex: 1 1 500px;
+}
+article > div.media {
+    flex: 1 500px;
+    justify-content: center;
+    /*align-items: center;
+    justify-content: center;
+    */
+}
+div.media > img {
+    display: block;
+    margin: auto;
+    margin-top: 8px;
+    width: 95%;
+    height: 95%;
+}
+div.media > iframe {
+    display: block;
+    padding: 0px 10px;
+    width: 440px;
+    height: 300px;
+    margin: auto;
+    margin-top: 8px;
+}
+section.normal h2 {
+    background-color: darkseagreen;
+    padding: 5px;
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+
+    
+}
